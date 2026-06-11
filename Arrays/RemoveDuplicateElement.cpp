@@ -7,6 +7,7 @@ int remove_duplicates(vector<int> &v, int n){
     int st = 0;
     int end = 1;
     while(end < n){
+
         if(v[end] == v[st]){
            end++;
         }else{
@@ -14,8 +15,9 @@ int remove_duplicates(vector<int> &v, int n){
             v[st] = v[end];
             end++;
         }
+
     }
-    return st;
+    return v[st];
 }
 
 int main(){
