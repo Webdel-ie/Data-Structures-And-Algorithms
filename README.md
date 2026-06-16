@@ -20,6 +20,7 @@ This repository contains my solutions to Data Structures and Algorithms problems
 - Pair Sum
 - Maximum Subarray Sum
 - Element Appearing Once
+- Longest Sub-Array with Sum K
 
 ## Languages Used
 - C++
