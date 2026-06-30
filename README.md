@@ -21,6 +21,8 @@ This repository contains my solutions to Data Structures and Algorithms problems
 - Maximum Subarray Sum
 - Element Appearing Once
 - Longest Sub-Array with Sum K
+- Two Sum
+- Rearrange Array Elements by Sign
 
 ## Languages Used
 - C++
