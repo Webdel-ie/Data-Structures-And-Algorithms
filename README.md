@@ -23,6 +23,7 @@ This repository contains my solutions to Data Structures and Algorithms problems
 - Longest Sub-Array with Sum K
 - Two Sum
 - Rearrange Array Elements by Sign
+- Sort an Array of 0's, 1's and 2's
 
 ## Languages Used
 - C++

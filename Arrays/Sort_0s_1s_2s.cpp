@@ -1,30 +1,28 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// TC : O(N*N)
+// TC : O(N)
 // SC : O(1)
 
 vector<int> sort_0s_1s_2s(vector<int> &v, int n){
-    int count_0s = 0;
-    int count_1s = 0;
-    int count_2s = 0;
+    int low = 0;
+    int mid = 0;
+    int high = n-1;
 
-    for(int i = 0; i < n; i++){
-        if(v[i] == 0)  count_0s++;
-        if(v[i] == 1)  count_1s++;
-        if(v[i] == 2)  count_2s++;
+    while(mid <= high){
+        if(v[mid] == 0){
+           swap(v[low], v[mid]);
+           low++;
+           mid++;
+        }
+        else if(v[mid] == 1){
+           mid++;
+        }
+        else{
+           swap(v[mid], v[high]);
+           high--;
+        }
     }
-
-    for(int i = 0; i < count_0s; i++){
-        v[i] = 0;
-    }
-    for(int i = count_0s; i < count_0s + count_1s; i++){
-        v[i] = 1;
-    }
-    for(int i = count_0s + count_1s; i < n; i++){
-        v[i] = 2;
-    }
-
     return v;
 }
 
