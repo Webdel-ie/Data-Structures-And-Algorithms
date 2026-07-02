@@ -24,6 +24,7 @@ This repository contains my solutions to Data Structures and Algorithms problems
 - Two Sum
 - Rearrange Array Elements by Sign
 - Sort an Array of 0's, 1's and 2's
+- Majority Element (Moore's Voting Algo)
 
 ## Languages Used
 - C++
@@ -34,7 +35,7 @@ This repository contains my solutions to Data Structures and Algorithms problems
 - Build strong DSA foundations
 
 ## Progress
-Solved: 14+ Problems
+Solved: 20+ Problems
 
 More topics coming soon:
 - Binary Search
