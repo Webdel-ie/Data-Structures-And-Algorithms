@@ -1,17 +1,33 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// TC : O(nlogn)
+// TC : O(2n)
 // SC : O(n)
 
 int majorityElement(const vector<int> &v, int n){
-    map<int, int> mpp;
+    int count = 0; 
+    int el;
+
     for(int i = 0; i < n; i++){
-        mpp[v[i]]++;
+        if(count == 0){
+            count++;
+            el = v[i];
+        }else if(v[i] == el){
+            count++;
+        }else{
+            count--;
+        }
     }
 
-    for(auto it : mpp){
-        if(it.second > n/2) return it.first;
+    // To check, in case the Majority Element doesn't exist.
+    int cnt1 = 0;
+    for(int i = 0; i < n; i++){
+        if(v[i] == el){
+            cnt1++;
+        }
+        if(cnt1 > n/2){
+            return el;
+        }
     }
     return -1;
 }
