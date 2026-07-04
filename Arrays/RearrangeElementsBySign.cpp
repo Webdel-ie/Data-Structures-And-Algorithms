@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// TC : O(n)
+// SC : O(n)
+
 vector<int> rearrangeElementsBySize(const vector<int> &v, int n){
     vector<int> ans(n, 0);
     int pos = 0;

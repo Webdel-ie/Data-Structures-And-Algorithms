@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// TC : O(n)
+// SC : o(1)
+
 int second_largest_element(int arr[], int n){
     int max = arr[0]; 
     int second_largest = INT_MIN;

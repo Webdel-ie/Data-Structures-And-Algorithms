@@ -1,12 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Brute Force--------------------------------------------------
-// TC = O(n*n)
-// SC =O(1)
-
-// Optimal Approach---------------------------------------------
-
 // TC = O(n)
 // SC = O(1)
 

@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// TC : O(n)
+// SC : O(1)
+
 int largest_element(int arr[], int n){
     int max = arr[0];
     for(int i = 1; i < n; i++){

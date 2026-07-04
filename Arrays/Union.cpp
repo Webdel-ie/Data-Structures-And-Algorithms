@@ -1,28 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// BRUTE FORCE APPROACH---------------------------------------------------------------------
-
-// vector<int> union_arr(vector<int> v1, vector<int> v2, int n1, int n2){
-//     set<int> st;
-//     vector<int> ans;
-
-//     for(int i = 0; i < n1; i++){
-//         st.insert(v1[i]);
-//     }
-
-//     for(int i = 0; i < n2; i++){
-//         st.insert(v2[i]);
-//     }
-    
-//     for(auto x : st){
-//         ans.push_back(x);
-//     }
-//     return ans;
-// }
-
-
-// OPTIMAL APPROACH------------------------------------------------------------------------
+// TC : O(n1 + n2)
+// SC : O(n1 + n2)
 
 vector<int> union_arr(vector<int> v1, vector<int> v2, int n1, int n2){
     vector<int> ans;

@@ -1,28 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// BRUTE FORCE APPROACH----------------------------------------------------------------------------------------------------
-
-// vector<int> move_zeroes(vector<int> &v, int n){
-//     vector<int> temp;
-//     for(int i = 0; i < n; i++){
-//        if(v[i] != 0){
-//           temp.push_back(v[i]);
-//        }
-//     }
-    
-//     for(int i = 0; i < temp.size(); i++){
-//         v[i] = temp[i];
-//     }
-
-//     for(int i = temp.size(); i < n; i++){
-//         v[i] = 0;
-//     }
-
-//     return v;
-// }
-
-// OPTIMAL APPROACH---------------------------------------------------------------------------------------------
+// TC : O(2n)
+// SC : O(1)
 
 vector<int> move_zeroes(vector<int> &v, int n){
     

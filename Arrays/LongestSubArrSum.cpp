@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Optimized Approach------------------------------------------
 // TC = O(n)
 // SC = O(1)
 

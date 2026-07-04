@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Remove Duplicate elements from a sorted array and return the last unique element.
+// TC : O(n)
+// SC : O(1)
 
 int remove_duplicates(vector<int> &v, int n){
     int st = 0;

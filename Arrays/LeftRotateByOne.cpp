@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// TC : O(n)
+// SC : O(1)
+
 vector<int> left_rotate_byOne(vector<int> &arr, int n){
     int temp = arr[0];
     for(int i = 1; i < n; i++){
