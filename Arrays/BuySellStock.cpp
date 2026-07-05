@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// TC : O(n)
+// SC : O(1)
+
 int maximumProfit(vector<int> &prices, int n){
     int mini = prices[0];
     int profit = 0;
