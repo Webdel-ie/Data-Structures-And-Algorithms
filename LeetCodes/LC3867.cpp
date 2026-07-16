@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Sum of GCD of formed pairs
+// Sum of GCD of all formed pairs
 
 long long gcdSum(vector<int>& nums) {
     long long gcdSums = 0;
