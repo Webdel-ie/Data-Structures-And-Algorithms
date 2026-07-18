@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Find Greatest Common Divisor of Array
+
 int findGCD(vector<int>& nums) {
     int small_num = INT_MAX;
     int large_num = INT_MIN;
