@@ -1,4 +1,4 @@
-#include<bits/stdc+.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 // Smallest Palindromic Arrangement I
@@ -16,5 +16,5 @@ string smallestPalindrome(string s) {
 
 int main() {
     string s = "daccad";
-    cout << "Lexicographically smallest palindromic arrangement of " << s << "is : " << smallestPalindrome(s) << endl;
+    cout << "Lexicographically smallest palindromic arrangement of " << s << " is : " << smallestPalindrome(s) << endl;
 }
