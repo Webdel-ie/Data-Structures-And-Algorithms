@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//Minimum Number of Pushes to Type Word I
+// Minimum Number of Pushes to Type Word I
 
 int minimumPushes(string word) {
     int ans = 0;
