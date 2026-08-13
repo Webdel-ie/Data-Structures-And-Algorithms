@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Print Name n-times.
+
 void printName(string s, int n){
     if(n == 0){
         return;
