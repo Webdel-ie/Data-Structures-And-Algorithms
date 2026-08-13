@@ -26,6 +26,9 @@ This repository contains my solutions to Data Structures and Algorithms problems
 - Sort an Array of 0's, 1's and 2's
 - Majority Element (Moore's Voting Algo)
 
+## LeetCode
+- Solved Multiple LeetCode Daily Problems
+
 ## Languages Used
 - C++
 
@@ -35,7 +38,7 @@ This repository contains my solutions to Data Structures and Algorithms problems
 - Build strong DSA foundations
 
 ## Progress
-Solved: 20+ Problems
+Solved: 30+ Problems
 
 More topics coming soon:
 - Binary Search
